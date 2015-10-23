@@ -1,0 +1,34 @@
+{
+  "name": "is-json-media-type",
+  "version": "1.0.0",
+  "description": "is this a JSON-based media type (rfc6838)?",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/is-json-media-type.git"
+  },
+  "keywords": [
+    "json",
+    "mime",
+    "media",
+    "type",
+    "media-type",
+    "application/json"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/is-json-media-type/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/is-json-media-type#readme",
+  "devDependencies": {
+    "mime-db": "1.19.0",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "media-type": "^0.3.0"
+  }
+}
